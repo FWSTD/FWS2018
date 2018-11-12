@@ -8,7 +8,7 @@
 
     <body>
         <div>
-            Thank you, <?php echo htmlspecialchars($_POST['fname']) ,htmlspecialchars($_POST['lname']); ?>. Your feedback is appreciated
+            Thank you, <?php echo htmlspecialchars($_POST['firstname']) ,htmlspecialchars($_POST['lastname']); ?>. Your feedback is appreciated
         </div>
     </body>
 </html>
